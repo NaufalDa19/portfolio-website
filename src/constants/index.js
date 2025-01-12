@@ -17,11 +17,20 @@ import {
   meta,
   starbucks,
   tesla,
+  telkom,
+  kedaireka,
   shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  python,
+  vscode,
+  colab,
+  detection,
+  gui,
+  nlp,
+  ann,
 } from "../assets";
 
 export const navLinks = [
@@ -56,112 +65,111 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "python",
+    icon: python,
   },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
+  // {
+  //   name: "CSS 3",
+  //   icon: css,
+  // },
   {
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+  // {
+  //   name: "TypeScript",
+  //   icon: typescript,
+  // },
   {
     name: "React JS",
     icon: reactjs,
   },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
+  // {
+  //   name: "Tailwind CSS",
+  //   icon: tailwind,
+  // },
+  // {
+  //   name: "Node JS",
+  //   icon: nodejs,
+  // },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
+  // {
+  //   name: "git",
+  //   icon: git,
+  // },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Visual Studio Code",
+    icon: vscode,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
+    name: "Google Colaboratory",
+    icon: colab,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Digital Connectivity Service",
+    company_name: "Telkom Indonesia",
+    icon: telkom,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "July 2023 - August 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Conducting Quality Assurance (QA), Type Approval (TA), and Voluntary Test (VT) for telecommunication devices.",
+      "Managing tests on fiber optic cables, modems, and other telecommunication devices.",
+      "Ensuring compliance with government regulations and maintaining operational standards.",
+      "Creating test procedure documents based on laboratory equipment used in testing.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Data Science",
+    company_name: "Kedaireka",
+    icon: kedaireka,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "August 2023 - January 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing a Deep Learning model using ResNet152V2 and CNN to detect foot abnormalities.",
+      "Creating a GUI for visualizing data from sensors or systems.",
+      "Working with hardware components like an analog multiplexer, shift register, and ESP32 microcontroller.",
     ],
   },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  // {
+  //   title: "Web Developer",
+  //   company_name: "Shopify",
+  //   icon: shopify,
+  //   iconBg: "#383E56",
+  //   date: "Jan 2022 - Jan 2023",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Meta",
+  //   icon: meta,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
@@ -193,68 +201,71 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Deep Learning-based Foot Abnormality Detection Using ResNet152V2 CNN Architecture",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A Deep Learning model utilizing CNN and ResNet152V2 architecture to classify foot types into two categories: normal and abnormal. The model is designed to detect three foot conditions—high arch, flat foot, and normal foot—by grouping them into these two classifications for more efficient analysis.",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "deep learning",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "data science",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: gui,
+    source_code_link:
+      "https://github.com/NaufalDa19/Deep-Learning-CNN-Klasifikasi-Keabnormalitasan-Telapak-Kaki",
   },
   {
-    name: "Job IT",
+    name: "Sentiment Analysis on Restaurant Reviews using algorithm Natural Language Processing (NLP)",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This project utilizes Natural Language Processing (NLP) to classify restaurant reviews as either positive (like) or negative (dislike). The data is processed through tokenization, removal of stop words, and stemming. It is then analyzed using machine learning models.",
     tags: [
       {
-        name: "react",
+        name: "machine learning",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "python",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "data science",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: nlp,
+    source_code_link:
+      "https://github.com/NaufalDa19/Sentiment-Analysis-on-Restaurant-Reviews-using-Natural-Language-Processing",
   },
   {
-    name: "Trip Guide",
+    name: "Customer Churn Prediction for Banking Using Artifical Neural Network (Deep Learning) algorithm",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This project predicts customer behavior in banking, specifically whether a customer will stay or churn, using the Churn_Modelling dataset, which includes demographic, account, and activity features to provide insights for improving customer retention and business success.",
     tags: [
       {
-        name: "nextjs",
+        name: "deep learning",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "python",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "data science",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: ann,
+    source_code_link:
+      "https://github.com/NaufalDa19/Customer-Churn-Prediction-for-Banking-Using-Artificial-Neural-Network",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, testimonials, experiences, projects };

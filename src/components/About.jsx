@@ -52,11 +52,15 @@ const About = () => {
           className="mt-4 text-secondary text-[17px] 
         max-w-3xl leading-[30px] text-center"
         >
-          I'm a skilled software developer with experience in TypeScript and
-          JavaScript, and expertise in frameworks like React, Node.js, and
-          Three.js. I'm a quick learner and collaborate closely with clients to
-          create efficient, scalable, and user-friendly solutions that solve
-          real-world problems. Let's work together to bring your ideas to life!
+          Telecommunications Engineering graduate from Telkom University (May
+          2024) with expertise in Data Science and IoT. Experienced in Python
+          programming, data preprocessing, and developing innovative solutions
+          like an IoT-based smoke detection system. In my final project,
+          successfully implemented a ResNet152V2 deep learning model for
+          flatfoot detection with 84% accuracy. Completed advanced training in
+          Machine Learning and Data Mining, along with online courses in deep
+          learning and machine learning. Eager to leverage technical skills to
+          drive impactful innovations in Data Science and AI.
         </motion.p>
       </motion.div>
 

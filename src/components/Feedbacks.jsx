@@ -22,7 +22,7 @@ const FeedbackCard = ({
       <p className="text-white tracking-wider text-[18px]">{testimonial}</p>
 
       <div
-        className="mt-7 flex justify-between 
+        className="mt-7 flex justify-between
       items-center gap-1"
       >
         <div className="flex-1 flex flex-col">
@@ -49,7 +49,7 @@ const Feedbacks = () => {
   return (
     <div className="mt-12 bg-black-100 rounded-[20px]">
       <div
-        className={`${styles.padding} 
+        className={`${styles.padding}
         bg-tertiary rounded-2xl min-h-[300px]`}
       >
         <motion.div variants={textVariant()}>

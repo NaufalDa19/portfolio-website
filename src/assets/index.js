@@ -20,15 +20,24 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python.png";
+import vscode from "./tech/vscode.png";
+import colab from "./tech/colab.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import telkom from "./company/telkom.png";
+import kedaireka from "./company/kedaireka.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import detection from "./detection_system.png";
+import gui from "./GUI.jpeg";
+import nlp from "./nlp.jpeg";
+import ann from "./ann.jpeg";
 
 export {
   logo,
@@ -52,11 +61,20 @@ export {
   tailwind,
   typescript,
   threejs,
+  python,
+  vscode,
+  colab,
   meta,
   shopify,
   starbucks,
   tesla,
+  telkom,
+  kedaireka,
   carrent,
   jobit,
   tripguide,
+  detection,
+  gui,
+  nlp,
+  ann,
 };
